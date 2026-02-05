@@ -10,16 +10,25 @@ html, body {
 main {
   padding-top: 1000px;  /* Adjust this value to match your header height */
 }
-
+.introText{
+  justify-content: center;
+  display: flex;
+}
 /* Card styling */
 .card {
   padding: 2rem;
   background-color: #f9f9f9;
   border-radius: 8px;
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: center;    /* Vertical */
+  height: 10vh;          /* Optional: Ensures parent fills screen height */
 }
 
 /* Small text */
 .read-the-docs {
   color: #888;
+  display: flex;
+  justify-content: center; /* Horizontal */
 }
